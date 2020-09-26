@@ -13,12 +13,12 @@ window.onload = function() {
     var textBody3 = "Las Progressive Web Apps se componen de dos partes principales, el App-Shell, que hace referencia a la estructura de la página y el contenido, que puede variar entre las distintas páginas de nuestra aplicación.";
     var textBody4 = "Dependiendo de la tecnología que se haya usado para desarrollar la página, el contenido se puede mandar desde el servidor en formato de código HTML o mediante script JSON, sin embargo, a la hora de utilizar JSON debemos ir con cuidado, ya que esta técnica nos puede dar problemas de indexación en caso de que se implemente mal. Este detalle es importante tenerlo en cuenta, sobre todo para a lo que el SEO se refiere.";
     var textFoot = "UNIVERSIDAD NACIONAL DE COSTA RICA<br />"
-    +"SEDE REGIONAL CHOROTEGA<br />CAMPUS LIBERIA<br />"
-    +"FUNDAMENTOS DE PROGRAMACIÓN WEB<br />"
-    +"I EXAMEN - PARTE I<br />"
-    +"PROFESOR:<br />"+" DARÍN MAURICIO GAMBOA VASQUEZ<br />"
-    +"ESTUDIANTE:<br />"
-    +"ALBERTO URBINA ESPINOZA";
+                    +"SEDE REGIONAL CHOROTEGA<br />CAMPUS LIBERIA<br />"
+                    +"FUNDAMENTOS DE PROGRAMACIÓN WEB<br />"
+                    +"I EXAMEN - PARTE I<br />"
+                    +"PROFESOR:<br />"+" DARÍN MAURICIO GAMBOA VASQUEZ<br />"
+                    +"ESTUDIANTE:<br />"
+                    +"ALBERTO URBINA ESPINOZA";
     
     document.getElementById("button").innerHTML = button;
     document.getElementById("strT").innerHTML = strongTitle;
@@ -28,9 +28,9 @@ window.onload = function() {
     document.getElementById("secion_elementos").innerHTML = title4;
     document.getElementById("textH").innerHTML = textHeader;
     document.getElementById("textHe").innerHTML = h1H;
+    document.getElementById("textB1").innerHTML = textBody;
     document.getElementById("textB2").innerHTML = textBody2;
     document.getElementById("textB3").innerHTML = textBody3;
     document.getElementById("textB4").innerHTML = textBody4;
     document.getElementById("textFoot").innerHTML = textFoot;
-    document.getElementById("textB").innerHTML = textBody;
 }
